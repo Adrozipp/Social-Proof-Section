@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+.container {
+  width: 1440px;
+  height: 1200px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  position: absolute;
+}
+.bg1 {
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+.bg2 {
+  position: relative;
+  right: 900px;
+}
+/* .textbox {
+  margin-left: 30px;
+} */
+.header1 {
+  width: 500px;
+  margin: 120px 0px 7px 120px;
+  display: flex;
+  position: relative;
+  right: 1665px;
+}
+.header1 h1 {
+  font-family: "Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 50px;
+  display: flex;
+  width: 500px;
+}
+.paragraph1 {
+  width: 500px;
+  margin: 120px 0px 7px 120px;
+  position: relative;
+  right: 2420px;
+  top: 190px;
+}
+.paragraph1 p {
+  width: 520px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -1px;
+  color: hsl(303, 10%, 53%);
+  margin-left: 120px;
+  line-height: 150%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.fivestar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 450px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 8px;
+  position: relative;
+  top: 120px;
+  left: 120px;
+}
+.fivestar1 img {
+  margin: 5px;
+}
+.fivestar1 p {
+  margin-left: 30px;
+}
+.fivestar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 450px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 8px;
+  position: relative;
+  top: 140px;
+  left: 180px;
+}
+.fivestar2 img {
+  margin: 5px;
+}
+.fivestar2 p {
+  margin-left: 30px;
+}
+.fivestar3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  width: 450px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 8px;
+  position: relative;
+  top: 160px;
+  left: 240px;
+}
+.fivestar3 img {
+  margin: 2px;
+}
+.fivestar1,
+.fivestar2,
+.fivestar3 p {
+  font-family: "Spartan", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.fivestarbox {
+  position: absolute;
+  margin-left: 600px;
+}
+.customerbox {
+  position: absolute;
+  margin-left: 30px;
+}
+.customer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  left: 120px;
+  top: 450px;
+}
+.customer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  left: 500px;
+  top: 280px;
+}
+.customer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  background: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  left: 880px;
+  top: 110px;
+}
+.customer1 img,
+.customer2 img,
+.customer3 img {
+  border-radius: 100px;
+  width: 35px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.name1,
+.name2,
+.name3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 35px;
+  left: 23%;
+  display: inline;
+}
+.verify1,
+.verify2,
+.verify3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  position: absolute;
+  top: 50px;
+  left: 23%;
+  display: inline;
+}
+.review1,
+.review2,
+.review3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: hsl(0, 0%, 100%);
+  align-self: center;
+  position: absolute;
+  padding: 0px 30px;
+  top: 80px;
+}
